@@ -1,0 +1,16 @@
+{
+  "name": "Icon Glow",
+  "version": "1.0",
+  "description": "Pulsing glow behind tab icon using favicon dominant color when playing audio",
+  "author": "YourName",
+  "content": [
+    {
+      "type": "js",
+      "path": "content/content.js"
+    },
+    {
+      "type": "css",
+      "path": "content/content.css"
+    }
+  ]
+}
