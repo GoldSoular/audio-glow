@@ -1,0 +1,61 @@
+[
+  {
+    "type": "text",
+    "label": "🎧 Pulse – Audio Glow Settings",
+    "margin": "20px 0 15px 0",
+    "size": "20px"
+  },
+
+  {
+    "type": "checkbox",
+    "property": "pulse-enable-glow",
+    "label": "Enable pulsing glow on audio-playing tabs",
+    "default": true
+  },
+
+  {
+    "type": "separator",
+    "label": "🎨 Glow Appearance",
+    "margin": "25px 0 8px 0"
+  },
+
+  {
+    "type": "dropdown",
+    "property": "pulse-glow-animation",
+    "label": "Animation style",
+    "value": "number",
+    "default": 1,
+    "options": [
+      { "label": "Subtle breath", "value": 1 },
+      { "label": "Strong pulse", "value": 2 },
+      { "label": "Fast rhythm", "value": 3 },
+      { "label": "Slow fade", "value": 4 }
+    ]
+  },
+
+  {
+    "type": "dropdown",
+    "property": "pulse-glow-size",
+    "label": "Glow size",
+    "value": "number",
+    "default": 2,
+    "options": [
+      { "label": "Compact", "value": 1 },
+      { "label": "Medium", "value": 2 },
+      { "label": "Large", "value": 3 }
+    ]
+  },
+
+  {
+    "type": "dropdown",
+    "property": "pulse-glow-intensity",
+    "label": "Glow intensity",
+    "value": "number",
+    "default": 2,
+    "options": [
+      { "label": "Soft", "value": 1 },
+      { "label": "Normal", "value": 2 },
+      { "label": "Vibrant", "value": 3 }
+    ]
+  }
+]

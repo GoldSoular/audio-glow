@@ -1,0 +1,16 @@
+{
+  "id": "Pulse",
+  "js": true,
+  "homepage": "https://github.com/yourusername/Pulse",
+  "author": "GoldSoul",
+  "name": "Pulse",
+  "description": "Zen mod that adds a favicon-coloured pulsing glow to tabs playing audio.",
+  "version": "1.0.0",
+  "createdAt": "2025-07-08",
+  "updatedAt": "2025-07-08",
+  "readme": "https://raw.githubusercontent.com/yourusername/Pulse/main/README.md",
+  "image": "",
+  "modules": "",
+  "tags": ["chrome", "audio", "glow", "tabs"],
+  "fork": ["zen"]
+}

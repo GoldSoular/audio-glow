@@ -1,0 +1,27 @@
+/* Dynamic glow controlled by JS and preferences */
+.tabbrowser-tab[style*="--pulse-glow-color"] .tab-icon-stack::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  box-shadow: 0 0 0 0 var(--pulse-glow-color);
+  animation: pulse-glow-animation var(--pulse-glow-duration, 1.6s) infinite
+    var(--pulse-glow-easing, ease-out);
+}
+
+@keyframes pulse-glow-animation {
+  0% {
+    box-shadow: 0 0 6px var(--pulse-glow-width, 1px) var(--pulse-glow-color),
+      0 0 12px var(--pulse-glow-spread, 3px) var(--pulse-glow-color);
+  }
+  50% {
+    box-shadow: 0 0 10px var(--pulse-glow-width, 1px) var(--pulse-glow-color),
+      0 0 20px var(--pulse-glow-spread, 3px) var(--pulse-glow-color);
+  }
+  100% {
+    box-shadow: 0 0 6px var(--pulse-glow-width, 1px) var(--pulse-glow-color),
+      0 0 12px var(--pulse-glow-spread, 3px) var(--pulse-glow-color);
+  }
+}
